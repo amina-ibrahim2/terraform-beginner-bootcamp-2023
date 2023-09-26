@@ -1,0 +1,22 @@
+# Define the HTML content for your index.html page
+html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple HTML page created using Python.</p>
+</body>
+</html>
+"""
+
+# Specify the file path where you want to save the index.html file
+file_path = "index.html"
+
+# Write the HTML content to the file
+with open(file_path, "w") as file:
+    file.write(html_content)
+
+print(f"Created {file_path}")
